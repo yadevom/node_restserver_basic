@@ -15,9 +15,9 @@ router.get("/", usuariosGet);
 
 router.post("/", usuariosPost);
 
-router.put("/",usuariosPut);
+router.put("/:id",usuariosPut);
 
-router.put("/:id",usuariosPatch);
+router.patch("/",usuariosPatch);
 
 router.delete("/", usuariosDelete);
 
